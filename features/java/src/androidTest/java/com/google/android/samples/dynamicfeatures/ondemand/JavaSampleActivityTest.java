@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.samples.dynamicfeatures.ondemand;
+package mtwtm.com.google.android.samples.dynamicfeatures.ondemand;
 
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.google.android.samples.dynamicfeatures.ondemand.java.R;
+import mtwtm.com.google.android.samples.dynamicfeatures.ondemand.java.R;
 
 import org.junit.Rule;
 import org.junit.Test;

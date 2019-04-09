@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.samples.dynamicfeatures.ondemand;
+package mtwtm.com.google.android.samples.dynamicfeatures.ondemand;
 
 import android.os.Bundle;
-import com.google.android.samples.dynamicfeatures.BaseSplitActivity;
-import com.google.android.samples.dynamicfeatures.ondemand.java.R;
+import mtwtm.com.google.android.samples.dynamicfeatures.BaseSplitActivity;
+import mtwtm.com.google.android.samples.dynamicfeatures.ondemand.java.R;
 
 import androidx.annotation.Nullable;
 

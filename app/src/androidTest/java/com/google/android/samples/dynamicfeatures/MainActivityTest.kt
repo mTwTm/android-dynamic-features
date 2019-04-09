@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.samples.dynamicfeatures
+package mtwtm.com.google.android.samples.dynamicfeatures
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.assertion.ViewAssertions.matches

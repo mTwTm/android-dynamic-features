@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.samples.dynamicfeatures
+package mtwtm.com.google.android.samples.dynamicfeatures
 
 import android.app.Activity
 import android.content.Intent
@@ -36,7 +36,7 @@ import com.google.android.play.core.splitinstall.SplitInstallStateUpdatedListene
 import com.google.android.play.core.splitinstall.model.SplitInstallSessionStatus
 import java.util.Locale
 
-private const val PACKAGE_NAME = "com.google.android.samples.dynamicfeatures.ondemand"
+private const val PACKAGE_NAME = "mtwtm.com.google.android.samples.dynamicfeatures.ondemand"
 
 private const val INSTANT_PACKAGE_NAME = "com.google.android.samples.instantdynamicfeatures"
 
@@ -133,6 +133,7 @@ class MainActivity : BaseSplitActivity() {
                 R.id.btn_instant_dynamic_feature_url_load -> openUrl(instantModuleUrl)
                 R.id.lang_en -> loadAndSwitchLanguage(LANG_EN)
                 R.id.lang_pl -> loadAndSwitchLanguage(LANG_PL)
+                R.id.lang_pl_remove -> removeAndSwitchLanguage(LANG_PL)
             }
         }
     }
@@ -192,14 +193,33 @@ class MainActivity : BaseSplitActivity() {
      * Load language splits by language name.
      * @param lang The language code to load (without the region part, e.g. "en", "fr" or "pl").
      */
+    private fun removeAndSwitchLanguage(lang: String) {
+        if (!manager.installedLanguages.contains(lang)) {
+            Log.e("mTwTm", lang + "ALREADY REMOVED")
+            updateProgressMessage("ALREADY REMOVED")
+            onSuccessfulLanguageRemoved(lang)
+            return
+        }
+        Log.e("mTwTm", lang + "SCHEDULED TO BE REMOVED")
+        manager.deferredLanguageUninstall(
+                mutableListOf(Locale.forLanguageTag(lang)))
+
+    }
+
+    /**
+     * Load language splits by language name.
+     * @param lang The language code to load (without the region part, e.g. "en", "fr" or "pl").
+     */
     private fun loadAndSwitchLanguage(lang: String) {
         updateProgressMessage(getString(R.string.loading_language, lang))
         // Skip loading if the language is already installed. Perform success action directly.
         if (manager.installedLanguages.contains(lang)) {
+            Log.e("mTwTm", lang + "ALREADY INSTALLED")
             updateProgressMessage(getString(R.string.already_installed))
             onSuccessfulLanguageLoad(lang)
             return
         }
+        Log.e("mTwTm", lang + "SCHEDULED INSTALLING")
 
         // Create request to install a language by name.
         val request = SplitInstallRequest.newBuilder()
@@ -301,6 +321,11 @@ class MainActivity : BaseSplitActivity() {
         displayButtons()
     }
 
+    private fun onSuccessfulLanguageRemoved(lang: String) {
+        LanguageHelper.language = LANG_EN
+        recreate()
+    }
+
     private fun onSuccessfulLanguageLoad(lang: String) {
         LanguageHelper.language = lang
         recreate()
@@ -346,6 +371,7 @@ class MainActivity : BaseSplitActivity() {
         setClickListener(R.id.btn_instant_dynamic_feature_url_load, clickListener)
         setClickListener(R.id.lang_en, clickListener)
         setClickListener(R.id.lang_pl, clickListener)
+        setClickListener(R.id.lang_pl_remove, clickListener)
     }
 
     private fun setClickListener(id: Int, listener: View.OnClickListener) {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.samples.dynamicfeatures
+package mtwtm.com.google.android.samples.dynamicfeatures
 
 import android.app.Application
 import android.content.Context

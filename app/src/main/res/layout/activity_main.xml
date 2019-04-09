@@ -189,7 +189,7 @@
         btn_instant_dynamic_feature_split_install,
         btn_load_kotlin,instructions,btn_install_all_now,
         btn_install_all_deferred,btn_request_uninstall, btn_instant_dynamic_feature_split_install,
-        btn_instant_dynamic_feature_url_load, lang_pl, lang_en" />
+        btn_instant_dynamic_feature_url_load, lang_pl, lang_en, lang_pl_remove" />
 
     <Button
         android:id="@+id/lang_en"
@@ -198,7 +198,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="@string/force_english"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lang_pl_remove"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/lang_pl"
         tools:layout_editor_absoluteY="642dp"
@@ -217,5 +217,18 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_instant_dynamic_feature_url_load" />
+
+    <Button
+        android:id="@+id/lang_pl_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="REMOVE_LANG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lang_en"
+        tools:layout_editor_absoluteY="642dp"
+        app:layout_constraintTop_toTopOf="@+id/lang_en" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

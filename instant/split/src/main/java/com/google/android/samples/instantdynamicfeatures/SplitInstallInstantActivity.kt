@@ -17,7 +17,7 @@
 package com.google.android.samples.instantdynamicfeatures
 
 import android.os.Bundle
-import com.google.android.samples.dynamicfeatures.BaseSplitActivity
+import mtwtm.com.google.android.samples.dynamicfeatures.BaseSplitActivity
 
 class SplitInstallInstantActivity : BaseSplitActivity() {
 

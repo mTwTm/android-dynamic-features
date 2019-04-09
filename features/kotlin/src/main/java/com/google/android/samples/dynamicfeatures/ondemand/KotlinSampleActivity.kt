@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.samples.dynamicfeatures.ondemand
+package mtwtm.com.google.android.samples.dynamicfeatures.ondemand
 
 import android.os.Bundle
-import com.google.android.samples.dynamicfeatures.BaseSplitActivity
-import com.google.android.samples.dynamicfeatures.ondemand.kotlin.R
+import mtwtm.com.google.android.samples.dynamicfeatures.BaseSplitActivity
+import mtwtm.com.google.android.samples.dynamicfeatures.ondemand.kotlin.R
 
 /** A simple Activity displaying some text, written in Kotlin. */
 class KotlinSampleActivity : BaseSplitActivity() {
