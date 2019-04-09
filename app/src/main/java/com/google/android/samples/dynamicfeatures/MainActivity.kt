@@ -132,8 +132,8 @@ class MainActivity : BaseSplitActivity() {
                 R.id.btn_instant_dynamic_feature_split_install -> loadAndLaunchModule(instantModule)
                 R.id.btn_instant_dynamic_feature_url_load -> openUrl(instantModuleUrl)
                 R.id.lang_en -> loadAndSwitchLanguage(LANG_EN)
-                R.id.lang_pl -> loadAndSwitchLanguage(LANG_PL)
-                R.id.lang_pl_remove -> removeAndSwitchLanguage(LANG_PL)
+                R.id.lang_pl -> loadAndSwitchLanguage(LANG_JV)
+                R.id.lang_pl_remove -> removeAndSwitchLanguage(LANG_JV)
             }
         }
     }

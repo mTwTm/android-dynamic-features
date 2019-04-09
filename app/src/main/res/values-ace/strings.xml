@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2019 Google LLC
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">jipeugöt lé</string>
+    <string name="force_polish">jipeugöt lé</string>
+    <string name="install_all_deferred">jipeugöt lé</string>
+    <string name="install_all_features_now">jipeugöt lé</string>
+    <string name="instant_dynamic_feature_split_install">jipeugöt lé</string>
+    <string name="instant_dynamic_feature_url_load">jipeugöt lé</string>
+    <string name="instructions">jipeugöt lé</string>
+    <string name="load_all_features_deferred">jipeugöt lé</string>
+    <string name="load_assets">jipeugöt lé</string>
+    <string name="load_feature_java">jipeugöt lé</string>
+    <string name="load_feature_kotlin">jipeugöt lé</string>
+    <string name="load_native_code">jipeugöt lé</string>
+    <string name="loading">PEUHAH</string>
+    <string name="force_english">jipeugöt lé</string>
+    <string name="request_uninstall">jipeugöt lé</string>
+    <string name="user_cancelled">jipeugöt lé</string>
+    <string name="loading_module">jipeugöt lé</string>
+    <string name="already_installed">jipeugöt lé</string>
+    <string name="starting_install_for">jipeugöt lé</string>
+    <string name="loading_language">jipeugöt lé</string>
+    <string name="downloading">jipeugöt lé</string>
+    <string name="installing">jipeugöt lé</string>
+    <string name="error_for_module">jipeugöt lé</string>
+    <string name="asset_content">jipeugöt lé</string>
+</resources>

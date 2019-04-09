@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2019 Google LLC
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">OKÉ</string>
+    <string name="force_polish">OKÉ</string>
+    <string name="install_all_deferred">OKÉ</string>
+    <string name="install_all_features_now">OKÉ</string>
+    <string name="instant_dynamic_feature_split_install">OKÉ</string>
+    <string name="instant_dynamic_feature_url_load">OKÉ</string>
+    <string name="instructions">OKÉ</string>
+    <string name="load_all_features_deferred">OKÉ</string>
+    <string name="load_assets">OKÉ</string>
+    <string name="load_feature_java">OKÉ</string>
+    <string name="load_feature_kotlin">OKÉ</string>
+    <string name="load_native_code">OKÉ</string>
+    <string name="loading">OKÉ</string>
+    <string name="request_uninstall">OKÉ</string>
+    <string name="force_english">OKÉ</string>
+    <string name="user_cancelled">OKÉ</string>
+    <string name="loading_module">OKÉ</string>
+    <string name="already_installed">OKÉ</string>
+    <string name="starting_install_for">OKÉ</string>
+    <string name="loading_language">OKÉ</string>
+    <string name="downloading">OKÉ</string>
+    <string name="installing">OKÉ</string>
+    <string name="error_for_module">OKÉ</string>
+    <string name="asset_content">OKÉ</string>
+</resources>

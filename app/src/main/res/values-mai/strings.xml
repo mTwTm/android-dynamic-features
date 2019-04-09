@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2019 Google LLC
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">ठीक</string>
+    <string name="force_polish">ठीक</string>
+    <string name="install_all_deferred">ठीक</string>
+    <string name="install_all_features_now">ठीक</string>
+    <string name="instant_dynamic_feature_split_install">ठीक</string>
+    <string name="instant_dynamic_feature_url_load">ठीक</string>
+    <string name="instructions">ठीक</string>
+    <string name="load_all_features_deferred">ठीक</string>
+    <string name="load_assets">ठीक</string>
+    <string name="load_feature_java">ठीक</string>
+    <string name="load_feature_kotlin">ठीक</string>
+    <string name="load_native_code">ठीक</string>
+    <string name="loading">ठीक</string>
+    <string name="request_uninstall">ठीक</string>
+    <string name="force_english">ठीक</string>
+    <string name="user_cancelled">ठीक</string>
+    <string name="loading_module">ठीक</string>
+    <string name="already_installed">ठीक</string>
+    <string name="starting_install_for">ठीक</string>
+    <string name="loading_language">ठीक</string>
+    <string name="downloading">ठीक</string>
+    <string name="installing">ठीक</string>
+    <string name="error_for_module">ठीक</string>
+    <string name="asset_content">ठीक</string>
+</resources>

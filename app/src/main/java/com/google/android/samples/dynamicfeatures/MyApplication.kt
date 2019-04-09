@@ -36,7 +36,7 @@ class MyApplication : Application() {
 
 internal const val LANG_EN = "en"
 
-internal const val LANG_PL = "pl"
+internal const val LANG_JV = "jv"
 
 private const val PREFS_LANG = "language"
 
